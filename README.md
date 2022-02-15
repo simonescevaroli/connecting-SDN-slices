@@ -214,4 +214,4 @@ Show s10 flow table<br>
 <img src="https://user-images.githubusercontent.com/98689485/154042119-2182702b-b3ae-487f-83cb-3deb88a188b5.png" width="100%" height="100%"><br>
 
 #### Close and clean up everything<br>
-It’s better to flush the topology with  ```sudo mn -c```  and to stop the VM with  ```vagrant halt comnetsemu```	
+It’s better to flush the topology with  ```sudo mn -c```  and to stop the VM with  ```vagrant halt comnetsemu```
