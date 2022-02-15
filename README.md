@@ -28,7 +28,7 @@
 • **Open vSwitch**<br>
 • **RYU controller**: defined in ComNetsEmu<br>
 • **Host and switches**: defined in ComNetsEmu<br>
-• **OpenFlow 1.0** (both RYU controllers and OvSwitches need to be set up working with this version)<br>
+• **OpenFlow1.0** (both RYU controllers and OvSwitches need to be set up working with this version)<br>
 
 
 ## 1st topology
