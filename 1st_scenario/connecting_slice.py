@@ -77,7 +77,7 @@ class SimpleSwitch(app_manager.RyuApp):
         # learn a mac address to avoid FLOOD next time.
         self.mac_to_port[dpid][src] = msg.in_port
 
-        self.logger.info("LOG s%s received packet (in_port=%s)", dpid, msg.in_port)
+        self.logger.info("LOG packet in %s %s %s %s", dpid, src, dst, msg.in_port)
 
         out_port=0
 
@@ -116,7 +116,6 @@ class SimpleSwitch(app_manager.RyuApp):
             datapath=datapath, buffer_id=msg.buffer_id, in_port=msg.in_port,
             actions=actions, data=data)
         
-        self.logger.info("LOG s%s sending packet (out_port=%s)", dpid, out_port)
         datapath.send_msg(out)
 
     @set_ev_cls(ofp_event.EventOFPPortStatus, MAIN_DISPATCHER)
