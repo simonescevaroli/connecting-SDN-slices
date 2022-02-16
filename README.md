@@ -103,7 +103,7 @@ Host 1 can send TCP packets to Host 4<br>
 
 Host 1 cannot send UDP packets to Host 3<br>
 ```mininet> h3 iperf -s -u &```<br>
-```mininet> h1 iperf -c -u 10.0.0.3 -u -t 5 -i 1```<br>
+```mininet> h1 iperf -c 10.0.0.3 -u -t 5 -i 1```<br>
 <img src="https://user-images.githubusercontent.com/98689485/154041334-74617265-4e63-4636-892f-4f749507aeee.png" width="40%" height="40%">
 
 	
