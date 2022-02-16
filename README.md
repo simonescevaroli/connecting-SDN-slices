@@ -46,7 +46,7 @@
 <br>• Additionally, the provider doesn’t want a slice to send UDP packets to the other; s9 sends the inter-slices UDP packets to a server that filters (and then drops) the packets<br>
 <br>
 ### TOPOLOGY<br>
-<img src="https://user-images.githubusercontent.com/98694899/154034712-90fce033-2d10-49f8-9502-3fadf188d858.png" width="100%" height="100%">
+<img src="https://user-images.githubusercontent.com/98689485/154246465-153cd7c2-c9d7-487e-b195-39efb5765db5.png" width="100%" height="100%">
 To see further details see <a href="https://github.com/simonescevaroli/ConnectingSDNSlices/blob/main/1st_topology.png" target="_blank" >1st_topology</a>
 <br>
 
