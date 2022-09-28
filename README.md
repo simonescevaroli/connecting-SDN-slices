@@ -1,3 +1,5 @@
+Project for _Softwarized and Virtualized Mobile Network_ (university course, 2021-2022)
+
 # Connecting SDN Slices
 
 ### TABLE OF CONTENTS<br>
