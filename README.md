@@ -1,4 +1,4 @@
-Project for _Softwarized and Virtualized Mobile Network_ (university course, 2021-2022)
+Project for _Softwarized and Virtualized Mobile Network_ (_Università di Trento_, 2021-2022)
 
 # Connecting SDN Slices
 
